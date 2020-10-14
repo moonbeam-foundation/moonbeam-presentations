@@ -62,9 +62,13 @@ The entire node, however, should not compile because the genesis config has not 
 
 Update the Genesis Config
 -------------------------
-Here we update the genesis config that is hard-coded into the node so that it works with the updated runtime.
+Here we update the genesis config that is hard-coded into the node so that it works with the updated runtime. For reference, you can see this work in commit [b5aa541](https://github.com/JoshOrndorff/substrate-node-template/commit/b5aa5417bb2ea9855338bee487f20bcd49eacf05).
 
 ### Snippets
+
+### Helpful Resources
+* https://substrate.dev/rustdocs/v2.0.0/pallet_evm/struct.GenesisAccount.html
+* Example of actually initializing accouts https://github.com/PureStake/moonbeam/blob/1308eed69a1083fd69fa3324ac4e0a93701d94f6/node/standalone/src/chain_spec.rs#L154-L164
 
 ### Check Your Work
 

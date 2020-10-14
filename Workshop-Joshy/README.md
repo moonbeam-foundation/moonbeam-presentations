@@ -1,6 +1,6 @@
 Building an Ethereum-Compatible Substrate Chain
 ===============================================
-We'll start from the node template, and assume you've followed the first two tutorials as substrate.dev/tutorials.
+We'll start from the node template, and assume you've followed the first two tutorials at substrate.dev/tutorials.
 
 Add EVM pallet to runtime
 ---------------------

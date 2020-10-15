@@ -59,7 +59,7 @@ At this point your runtime should compile. Check with `cargo check -p node-templ
 
 The entire node, however, should not compile because the genesis config has not been updated. Confirm that the build fails by running `cargo check`.
 
-## Update the Genesis Config
+## Pallet EVM in the Genesis Config
 Here we update the genesis config that is hard-coded into the node so that it works with the updated runtime. For reference, you can see this work in commit [b5aa541](https://github.com/JoshOrndorff/substrate-node-template/commit/b5aa5417bb2ea9855338bee487f20bcd49eacf05).
 
 ### Snippets
@@ -68,7 +68,6 @@ Here we update the genesis config that is hard-coded into the node so that it wo
 ```rust
 use node_template_runtime::{
 	AccountId, AuraConfig, BalancesConfig, GenesisConfig, GrandpaConfig,
-	SudoConfig, SystemConfig, WASM_BINARY, Signature
 	SudoConfig, SystemConfig, WASM_BINARY, Signature, EVMConfig,
 };
 use std::collections::BTreeMap;
@@ -77,8 +76,8 @@ use std::collections::BTreeMap;
 `node/src/chain_spec.rs`
 ```rust
 pallet_evm: Some(EVMConfig {
-			accounts: BTreeMap::new(),
-		}),
+	accounts: BTreeMap::new(),
+}),
 ```
 
 ### Helpful Resources
@@ -132,3 +131,28 @@ Ethereum: pallet_ethereum::{Module, Call, Storage, Event, Config, ValidateUnsign
 At this point your runtime should compile. Check with `cargo check -p node-template-runtime`.
 
 As before, the entire node should not compile because the genesis config has not been updated. Confirm that the build fails by running `cargo check`.
+
+## Pallet Ethereum in the Genesis Config
+Again we update the genesis config to work with the updated runtime. For reference, you can see this work in commit [217ac4d](https://github.com/JoshOrndorff/substrate-node-template/commit/217ac4d7a63575631c65e6a2b8936b88fc4bcbca).
+
+### Snippets
+
+`node/src/chain_spec.rs`
+```rust
+use node_template_runtime::{
+	AccountId, AuraConfig, BalancesConfig, GenesisConfig, GrandpaConfig,
+	SudoConfig, SystemConfig, WASM_BINARY, Signature, EVMConfig, EthereumConfig,
+};
+```
+
+`node/src/chain_spec.rs`
+```rust
+pallet_ethereum: Some(EthereumConfig {}),
+```
+
+### Helpful Resources
+* https://github.com/paritytech/frontier/blob/51bd10ff209f1f19cd33715d2d75e6768eca5352/frame/ethereum/src/lib.rs#L75-L79 Definition of empty genesis config. You may wonder why we have a genesis config at all if it doesn't contain any data. Although we don't need to pass any data into the pallet, we do need the pallet to calculate the ethereum-style genesis block just like it will for every other block in the chain. 
+
+### Check Your Work
+
+At this point the entire node should build. Confirm that by running `cargo check`.

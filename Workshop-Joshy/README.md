@@ -52,6 +52,7 @@ EVM: pallet_evm::{Module, Call, Storage, Config, Event<T>}
 
 ### Helpful Resources
 
+* https://substrate.dev/rustdocs/v2.0.0/pallet_evm/index.html
 * https://substrate.dev/rustdocs/v2.0.0/pallet_evm/struct.EnsureAddressTruncated.html
 * https://substrate.dev/rustdocs/v2.0.0/pallet_evm/struct.HashedAddressMapping.html
 

@@ -68,7 +68,7 @@ Here we update the genesis config that is hard-coded into the node so that it wo
 
 ### Helpful Resources
 * https://substrate.dev/rustdocs/v2.0.0/pallet_evm/struct.GenesisAccount.html
-* Example of actually initializing accouts https://github.com/PureStake/moonbeam/blob/1308eed69a1083fd69fa3324ac4e0a93701d94f6/node/standalone/src/chain_spec.rs#L154-L164
+* Example of actually initializing accounts https://github.com/PureStake/moonbeam/blob/1308eed69a1083fd69fa3324ac4e0a93701d94f6/node/standalone/src/chain_spec.rs#L154-L164
 
 ### Check Your Work
 

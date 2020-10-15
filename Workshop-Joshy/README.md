@@ -2,6 +2,8 @@ Building an Ethereum-Compatible Substrate Chain
 ===============================================
 We'll start from the node template, and assume you've followed the first two tutorials at substrate.dev/tutorials.
 
+As you work through this material, you may reference this branch where I have completed each step in its own commit. https://github.com/JoshOrndorff/substrate-node-template/commits/frontier-workshop
+
 ## Add EVM pallet to runtime
 
 Here we add the EVM pallet to the runtime. For reference, you can see this work in commit [0e6238b](https://github.com/JoshOrndorff/substrate-node-template/commit/0e6238bee8b61c7d87cbc5ecbde7ed93f80b60a4).

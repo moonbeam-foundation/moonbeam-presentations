@@ -2,11 +2,13 @@
 
 # Using Frontier to Build an Ethereum-Compatible Substrate-Based Chain
 
+This repository contains supplemental materials for the presentation at [Sub0](sub0.parity.io).
+
 ## Material
 
--  [Presentation](20201015-MoonbeamFrontier-(Sub0).pdf)
--  [Alberto's Workshop](https://github.com/PureStake/moonbeam-sub0/tree/main/Workshop-Alberto)
--  [Joshy's Workshop](https://github.com/PureStake/moonbeam-sub0/tree/main/Workshop-Joshy)
+-  [Presentation](https://docs.google.com/presentation/d/1Hy8y3axrdmT3LdcICZiycus-elg3bcQo8stbdD4C1hU/edit?usp=sharing)
+-  [Alberto's Workshop](Workshop-Alberto)
+-  [Joshy's Workshop](Workshop-Joshy)
 
 ## Contact Us
 

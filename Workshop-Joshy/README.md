@@ -220,7 +220,7 @@ For reference, you can see this work in commit [2282def](https://github.com/Josh
 
 ### Snippets
 
-`runtime/src/Cargo.toml`
+`runtime/src/lib.rs`
 ```rust
 use sp_core::{crypto::KeyTypeId, OpaqueMetadata, U256, H160, H256};
 use pallet_evm::{
@@ -229,7 +229,7 @@ use pallet_evm::{
 use frontier_rpc_primitives::TransactionStatus;
 ```
 
-`runtime/src/Cargo.toml`
+`runtime/src/lib.rs`
 ```rust
 impl frontier_rpc_primitives::EthereumRuntimeRPCApi<Block> for Runtime {
 	fn chain_id() -> u64 {

@@ -64,6 +64,23 @@ Here we update the genesis config that is hard-coded into the node so that it wo
 
 ### Snippets
 
+`node/src/chain_spec.rs`
+```rust
+use node_template_runtime::{
+	AccountId, AuraConfig, BalancesConfig, GenesisConfig, GrandpaConfig,
+	SudoConfig, SystemConfig, WASM_BINARY, Signature
+	SudoConfig, SystemConfig, WASM_BINARY, Signature, EVMConfig,
+};
+use std::collections::BTreeMap;
+```
+
+`node/src/chain_spec.rs`
+```rust
+pallet_evm: Some(EVMConfig {
+			accounts: BTreeMap::new(),
+		}),
+```
+
 ### Helpful Resources
 * https://substrate.dev/rustdocs/v2.0.0/pallet_evm/struct.GenesisAccount.html
 * Example of actually initializing accounts https://github.com/PureStake/moonbeam/blob/1308eed69a1083fd69fa3324ac4e0a93701d94f6/node/standalone/src/chain_spec.rs#L154-L164

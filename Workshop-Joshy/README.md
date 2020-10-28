@@ -11,7 +11,7 @@ Contents
 * [The EVM genesis configuration](evm-genesis.md)
 * [Install the Ethereum Pallet](pallet-ethereum.md)
 * [The Ethereum genesis configuration](ethereum-genesis.md)
-* [Wrapping transactions](wrapping-transaction.md)
+* [Wrapping transactions](wrapping-transactions.md)
 * [Installing the Runtime API](runtime-api.md)
 * [Installing the `FrontierBlockImport`](block-import.md)
 * [Installing the RPC endpoint](rpc.md)

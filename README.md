@@ -2,7 +2,7 @@
 
 # Using Frontier to Build an Ethereum-Compatible Substrate-Based Chain
 
-This repository contains supplemental materials for the presentation at [Sub0](sub0.parity.io).
+This repository contains supplemental materials for the presentation at [Sub0](https://sub0.parity.io).
 
 ## Material
 

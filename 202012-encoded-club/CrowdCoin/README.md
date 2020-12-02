@@ -56,7 +56,7 @@ Each campaign is deployed as an instance of the campaign contract and has a part
  - GetSummary: a view function to visualize details of the campaign. It returns the minimum contribution, its address, number of requests, number of contributors and the address of its owner
  - GetRequestCount: a view function that returns the number of requests the campaign has
 
-The whole contract can be found [here](/ethereum/contracts/CrowdCoin.sol)
+The whole contract can be found [here](./ethereum/contracts/CrowdCoin.sol)
 
 ### Compiling the Contracts
 
@@ -102,7 +102,7 @@ node deploy.js
 
 After the contract is deployed, its address is shown in the terminal:
 
-![Moonbeam Deploy](/imgs/crowdcoin-deploy.png)
+![Moonbeam Deploy](./imgs/crowdcoin-deploy.png)
 
 **Note:** The address of the contract needs to be entered on the `factory.js` file. Remember that this address is the campaign factory and that we will use it to create new campaigns. However, each campaign will have a separated address as it will be its own contract deployment.
 
@@ -133,21 +133,21 @@ npm run dev
 
 This not only builds the project but starts the server-side rendering of each action the user takes. If everything builds without errors, the site should be available on `http://localhost:3000/`:
 
-![Run CrowdCoin](/imgs/crowdcoin-run.png)
+![Run CrowdCoin](./imgs/crowdcoin-run.png)
 
 Once we open the Web App, a MetaMask pop-up will ask you if you want to allow the connection to the site:
 
-<img src="imgs/crowdcoin-metamask.png" height="500" />
+<img src="./imgs/crowdcoin-metamask.png" height="500" />
 
 ### Create a New Campaign
 
 The Web App is quite simple. In the main screen, the deployed campaigns are shown. From here, users can also create their own campaigns by clicking on the "Create Campaign" box, or the "+" symbol on the top right corner:
 
-![Create Campaign 1](/imgs/crowdcoin-webapp1.png)
+![Create Campaign 1](./imgs/crowdcoin-webapp1.png)
 
 This opens a new site, where the user is prompted for the minimum contribution to join the campaign (as an approver). In our example, we'll go for `0.1 DEV` (which translates to `100000000000000000` in WEI). Once we click the "Create" button, MetaMask should pop-up displaying details of the transaction and asking for confirmation.
 
-![Create Campaign 2](/imgs/crowdcoin-webapp2.png)
+![Create Campaign 2](./imgs/crowdcoin-webapp2.png)
 
 Behind the scenes, the site is sending a transaction with the `createCampaign` method of the campaign factory contract. Inside the `./pages/campaigns/new.js` you will find the following lines:
 
@@ -160,37 +160,37 @@ const accounts = await web3.eth.getAccounts();
 
 Where the factory instance is obtained from the `factory.js` file we mentioned earlier. Now that the campaign is deployed, it should be listed as well on the main page. This information is returned by calling the `getDeployedCampaigns()` method of the campaign factory contract. 
 
-![Campaign List](/imgs/crowdcoin-webapp3.png)
+![Campaign List](./imgs/crowdcoin-webapp3.png)
 
 By clicking on "View Campaign", we can see the campaign details, which are obtained by calling the `getSummary()` method of the campaign contract.
 
-![Campaign Details](/imgs/crowdcoin-webapp4.png)
+![Campaign Details](./imgs/crowdcoin-webapp4.png)
 
 ### Create a New Request
 
 Now, let's create a request to spend some of the campaign balance by leveraging the `createRequest()` method from our campaign contract. To do so, click on the "View Request" and then on "Add Request". In here, we need to fill up the information necessary to create the request structure we described on the contract file. In this example, we want to buy the batteries for our product. The recipient was set to another account created in MetaMask so we can verify that the funds arrived after the request is finalized. Next, click on the "Create" button and a MetaMask pop-up should appear. In here, we need to modify the gas limit to `200000`. 
 
-![Create Request](/imgs/crowdcoin-webapp5.png)
+![Create Request](./imgs/crowdcoin-webapp5.png)
 
 Currently, we are experiencing some gas estimation issues only for specific functions, this is already being worked on. More information can be found [here](https://github.com/paritytech/frontier/issues/198). 
 
 Once the request is created, it will be displayed on the request list. Here, contributors can vote on them, and the campaign owner can trigger the finalization of a requests once the approval rate is more than 50%.
 
-![Request List](/imgs/crowdcoin-webapp6.png)
+![Request List](./imgs/crowdcoin-webapp6.png)
 
 ### Contribute, Approve and Finalize Requests
 
 Next, let's contribute to our campaign with a different account (in our case the same account of the recipient of the battery payment). To do so, in the campaign details site, set the amount to contribute (`0.1 DEV` in our example), click on "Contribute" button, and confirm the transaction in MetaMask. This action uses the `contribute()` method of our campaign contract.
 
-![Contribute](/imgs/crowdcoin-webapp7.png)
+![Contribute](./imgs/crowdcoin-webapp7.png)
 
 Once the transaction is processed, the details of the campaign are updated with the new balance and number of approvers. With the same account, lets head into the request list and approve the "Buy batteries" request by clicking on the button and confirming the transaction on MetaMask. This action uses the `approveRequest()` method of our campaign contract.
 
-![Approve Request](/imgs/crowdcoin-webapp8.png)
+![Approve Request](./imgs/crowdcoin-webapp8.png)
 
 Once the transaction is processed, the approval count is updated, and the owner on the campaign can finalize the request. To do so, head back to the account which owns the campaign, click on the "Finalize" button, and confirm the transaction on MetaMask. And lastly, this action uses the `finalizeRequest()` method of our campaign contract.
 
-![Finalize Request](/imgs/crowdcoin-webapp9.png)
+![Finalize Request](./imgs/crowdcoin-webapp9.png)
 
 Once the transaction is processed, the recipient address should receive the amount set in the request. This request is now finalized and it will be grayed-out on the list.
 

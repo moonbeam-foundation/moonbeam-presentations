@@ -6,7 +6,7 @@ const bytecode = compiledFactory.evm.bytecode.object;
 const abi = compiledFactory.abi;
 const privKey = process.env.PRIV_KEY;
 const web3 = new Web3('https://rpc.testnet.moonbeam.network');
-const address = web3.eth.accounts.privateKeyToAccount(PRIV_KEY);
+const address = web3.eth.accounts.privateKeyToAccount(privKey).address;
 
 // Deploy contract
 const deploy = async () => {

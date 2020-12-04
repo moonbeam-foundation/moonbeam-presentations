@@ -4,11 +4,11 @@
 
 These examples provide different usecases for the web3.js library on Moonbeam. The examples include the following:
 
-- [Sending a Transaction](#sending-a-transaction)
- - Deploy a smart contract
- - Subscribe to logs regarding pending transactions
- - Subscribe to logs regarding new block headers
- - Subscribe to logs regarding events emmited by smart contracts
+-  Sending a Transaction (file 01)
+ - Deploy a smart contract (file 02)
+ - Subscribe to logs regarding pending transactions (file 03)
+ - Subscribe to logs regarding new block headers (file 04)
+ - Subscribe to logs regarding events emmited by smart contracts (file 05)
 
 The following URLs provide useful information to get started with the Moonbase Alpha TestNet:
 

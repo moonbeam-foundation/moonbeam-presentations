@@ -1,32 +1,17 @@
-![Moonbeam Logo](https://github.com/PureStake/moonbeam/blob/master/media/moonbeam-cover.jpg?raw=true)
+![Chainlink Moonbeam](MoonbeamChainlink.png)
 
-# Moonbeam Presentations
+# Using Solidity Smart Contracts with Chainlink Oracles on Moonbeam
 
-This repository is a place where you will find all the presentations and their corresponding examples.
+This repository contains supplemental materials for the [Moonbeam Chainlink Demo](https://www.youtube.com/watch?v=bp_ENdopbzM).
 
-## Getting started
+## Material
 
-We've put each presentation in a different branch. To get started you can clone the full repository:
+-  [Presentation](https://docs.google.com/presentation/d/1usLGiLVjP7MBXjs_S6Xa0_O8q_EdSCsonLIeX04RiSA/edit?usp=sharing)
 
-```
-git clone https://github.com/PureStake/moonbeam-presentations
-cd moonbeam-presentations
-```
+## Contact Us
 
-Then you can check all the different branches (presentations) available:
+Feel free to reach out for any questions or feedback you might have:
 
-```
-git branch
-```
-
-Choose the presentation you want to checkout (literally) and run:
-
-```
-git checkout PRESENTATION-NAME-HERE
-```
-
-And that is it! 
-
-Have fun :)
-
-
+-  [Moonbeam Website](https://moonbeam.network/)
+-  [Discord Channel](https://discord.gg/nWbtA9x)
+-  [Telegram](https://t.me/Moonbeam_Official)

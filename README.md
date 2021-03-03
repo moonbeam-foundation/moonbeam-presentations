@@ -6,7 +6,8 @@ This repository contains supplemental materials for the presentation at [Sub0](h
 
 ## Material
 
--  [Presentation](https://docs.google.com/presentation/d/1Hy8y3axrdmT3LdcICZiycus-elg3bcQo8stbdD4C1hU/edit?usp=sharing)
+-  [Presentation Slides](https://docs.google.com/presentation/d/1Hy8y3axrdmT3LdcICZiycus-elg3bcQo8stbdD4C1hU/edit?usp=sharing)
+-  [Video Recording](https://www.youtube.com/watch?v=U18uEgWVZy4)
 -  [Alberto's Workshop](Workshop-Alberto)
 -  [Joshy's Workshop](Workshop-Joshy)
 

@@ -1,0 +1,16 @@
+{
+   "name": "WorkShop1",
+   "version": "1.0.0",
+   "description": "",
+   "main": "01transaction.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "ethers": "^5.0.31",
+      "web3": "^1.3.3"
+   }
+}

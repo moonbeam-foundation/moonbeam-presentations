@@ -1,0 +1,11 @@
+docker run --rm --name moonbeam_standalone --network host \
+purestake/moonbeam:tutorial-v6 \
+ --dev --rpc-port 9937 --ws-port 9948 "-lrpc=trace" --no-telemetry
+
+ Flags
+
+ --tmp: temporal node, storage is deleted once the node is stopped
+ --sealing 6000: produces a block every 6 seconds (time in ms)
+ --rpc-port & --ws-port: uses a custom RPC and WS port
+ "-lrpc=trace": traces RPC calls and responses from/to the node
+ --no-telemetry: telemetry features are disabled

@@ -6,9 +6,10 @@ This repository contains supplemental materials for the presentation at [Encoded
 
 ## Material
 
--  [Presentation](https://docs.google.com/presentation/d/15bn7NxEFpAD2V5GeXpCizEBFAHG5W5d3-66U_DAHFFA/edit?usp=sharing)
--  [CrowdCoin](https://github.com/PureStake/moonbeam-presentations/tree/main/202012-encoded-club/CrowdCoin)
--  [Examples](https://github.com/PureStake/moonbeam-presentations/tree/main/202012-encoded-club/Examples)
+-  [Presentation Slides](https://docs.google.com/presentation/d/15bn7NxEFpAD2V5GeXpCizEBFAHG5W5d3-66U_DAHFFA/edit?usp=sharing)
+-  [Video Recording](https://www.youtube.com/watch?v=cTjtW4QNCXQ)
+-  [CrowdCoin](https://github.com/PureStake/moonbeam-presentations/tree/202012-encoded-club/CrowdCoin)
+-  [Examples](https://github.com/PureStake/moonbeam-presentations/tree/202012-encoded-club/Examples)
 
 ## Contact Us
 

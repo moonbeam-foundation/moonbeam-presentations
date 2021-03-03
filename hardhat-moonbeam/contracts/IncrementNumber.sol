@@ -16,7 +16,7 @@ contract NumberStore {
     // Calls Incrementer Contract
     function incrementNumber() public {
         
-        // Call Menganito
+        // Call Incrementer
         incrementer = Incrementer(incrementerAddress);
         numberStored = incrementer.increment(numberStored);
     }

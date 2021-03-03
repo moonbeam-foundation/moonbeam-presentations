@@ -2,11 +2,12 @@
 
 # Using Solidity Smart Contracts with Chainlink Oracles on Moonbeam
 
-This repository contains supplemental materials for the [Moonbeam Chainlink Demo](https://www.youtube.com/watch?v=bp_ENdopbzM).
+This repository contains supplemental materials for the Moonbeam [Chainlink](https://chain.link/) Demo.
 
 ## Material
 
--  [Presentation](https://docs.google.com/presentation/d/1usLGiLVjP7MBXjs_S6Xa0_O8q_EdSCsonLIeX04RiSA/edit?usp=sharing)
+-  [Presentation Slides](https://docs.google.com/presentation/d/1usLGiLVjP7MBXjs_S6Xa0_O8q_EdSCsonLIeX04RiSA/edit?usp=sharing)
+- [Video Recording](https://www.youtube.com/watch?v=bp_ENdopbzM)
 
 ## Contact Us
 

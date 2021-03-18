@@ -1,0 +1,212 @@
+{
+   "abi": [
+      {
+         "inputs": [
+            {
+               "internalType": "bytes32",
+               "name": "_requestId",
+               "type": "bytes32"
+            },
+            {
+               "internalType": "uint256",
+               "name": "_payment",
+               "type": "uint256"
+            },
+            {
+               "internalType": "bytes4",
+               "name": "_callbackFunctionId",
+               "type": "bytes4"
+            },
+            {
+               "internalType": "uint256",
+               "name": "_expiration",
+               "type": "uint256"
+            }
+         ],
+         "name": "cancelRequest",
+         "outputs": [],
+         "stateMutability": "nonpayable",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "stateMutability": "nonpayable",
+         "type": "constructor"
+      },
+      {
+         "anonymous": false,
+         "inputs": [
+            {
+               "indexed": true,
+               "internalType": "bytes32",
+               "name": "id",
+               "type": "bytes32"
+            }
+         ],
+         "name": "ChainlinkCancelled",
+         "type": "event"
+      },
+      {
+         "anonymous": false,
+         "inputs": [
+            {
+               "indexed": true,
+               "internalType": "bytes32",
+               "name": "id",
+               "type": "bytes32"
+            }
+         ],
+         "name": "ChainlinkFulfilled",
+         "type": "event"
+      },
+      {
+         "anonymous": false,
+         "inputs": [
+            {
+               "indexed": true,
+               "internalType": "bytes32",
+               "name": "id",
+               "type": "bytes32"
+            }
+         ],
+         "name": "ChainlinkRequested",
+         "type": "event"
+      },
+      {
+         "inputs": [],
+         "name": "forceToTrue",
+         "outputs": [],
+         "stateMutability": "nonpayable",
+         "type": "function"
+      },
+      {
+         "inputs": [
+            {
+               "internalType": "bytes32",
+               "name": "_requestId",
+               "type": "bytes32"
+            },
+            {
+               "internalType": "uint256",
+               "name": "_price",
+               "type": "uint256"
+            }
+         ],
+         "name": "fulfill",
+         "outputs": [],
+         "stateMutability": "nonpayable",
+         "type": "function"
+      },
+      {
+         "inputs": [
+            {
+               "internalType": "string",
+               "name": "_jobId",
+               "type": "string"
+            }
+         ],
+         "name": "requestPrice",
+         "outputs": [],
+         "stateMutability": "nonpayable",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "name": "withdrawLink",
+         "outputs": [],
+         "stateMutability": "nonpayable",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "name": "currentPrice",
+         "outputs": [
+            {
+               "internalType": "uint256",
+               "name": "",
+               "type": "uint256"
+            }
+         ],
+         "stateMutability": "view",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "name": "fulfillCheck",
+         "outputs": [
+            {
+               "internalType": "bool",
+               "name": "",
+               "type": "bool"
+            }
+         ],
+         "stateMutability": "view",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "name": "lastBlockTime",
+         "outputs": [
+            {
+               "internalType": "uint256",
+               "name": "",
+               "type": "uint256"
+            }
+         ],
+         "stateMutability": "view",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "name": "lastJobId",
+         "outputs": [
+            {
+               "internalType": "string",
+               "name": "",
+               "type": "string"
+            }
+         ],
+         "stateMutability": "view",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "name": "linkToken",
+         "outputs": [
+            {
+               "internalType": "address",
+               "name": "",
+               "type": "address"
+            }
+         ],
+         "stateMutability": "view",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "name": "oracleAddress",
+         "outputs": [
+            {
+               "internalType": "address",
+               "name": "",
+               "type": "address"
+            }
+         ],
+         "stateMutability": "view",
+         "type": "function"
+      },
+      {
+         "inputs": [],
+         "name": "owner",
+         "outputs": [
+            {
+               "internalType": "address",
+               "name": "",
+               "type": "address"
+            }
+         ],
+         "stateMutability": "view",
+         "type": "function"
+      }
+   ]
+}

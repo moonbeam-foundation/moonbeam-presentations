@@ -145,7 +145,7 @@ class Table extends Component {
                displayed in this dashboard.
             </p>
             <h5>
-               Current Value: {this.state.value} ( Last Updated:{' '}
+               Current Value: $ {this.state.value} (Last Updated:{' '}
                {this.state.updated} -- JobID: {this.state.lastJobID})
             </h5>
             <Form onSubmit={this.onSubmit} error={!!this.state.errorMessage}>

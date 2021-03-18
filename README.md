@@ -4,6 +4,12 @@
 
 This repository contains supplemental materials for the Moonbeam Presentation for the [Chainlink Hackathon](https://chain.link/hackathon).
 
+Clone this repo:
+
+```
+git clone -b 202103-chainlink-hackathon https://github.com/PureStake/moonbeam-presentations
+```
+
 ## Material
 
 -  [Presentation Slides](https://docs.google.com/presentation/d/1PUZQXw9PmFOCDgtwAN6vn9wqs2pPCjnwcjorrgI2Wsc/edit?usp=sharing)

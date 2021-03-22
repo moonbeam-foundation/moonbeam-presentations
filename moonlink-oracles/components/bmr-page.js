@@ -37,7 +37,7 @@ class Table extends Component {
          ethereum.chainId === '0x507'
       ) {
          // Contract info
-         const clientAddress = '0x7B7892B75D31abE50537dcdEcef49F2582F174cE';
+         const clientAddress = '0x37867cD8DeA2a8e2DF38AB38736525D13fA2B848';
          const contractInstance = BMRInstance(clientAddress, 1);
 
          // Hack to reset state of contract
@@ -103,7 +103,7 @@ class Table extends Component {
          const currentdate = new Date();
 
          // Contract Fetch
-         const clientAddress = '0x7B7892B75D31abE50537dcdEcef49F2582F174cE';
+         const clientAddress = '0x37867cD8DeA2a8e2DF38AB38736525D13fA2B848';
          const contractInstance = BMRInstance(clientAddress, 0);
          const value = (await contractInstance.currentPrice()) / 100;
 

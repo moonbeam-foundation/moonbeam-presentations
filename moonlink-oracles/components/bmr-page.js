@@ -180,7 +180,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>BTC/USD</td>
                      <td data-label='Job ID'>
-                        b17d475086e2451f9dee27f506f279c6
+                        e129dd6d6a6748fcb7f3944e3993be80
                      </td>
                   </tr>
                </tbody>
@@ -188,7 +188,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>ETH/USD</td>
                      <td data-label='Job ID'>
-                        f2376b95145a4511a5ba6720bc8e1e41
+                        d27d7e7cb8744c5d87e693c6133c9e82
                      </td>
                   </tr>
                </tbody>
@@ -196,7 +196,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>DOT/USD</td>
                      <td data-label='Job ID'>
-                        0cd5311976d94d3e9f97986951ec8ee7
+                        a8ddef6b544e42d194bbf08b7555562a
                      </td>
                   </tr>
                </tbody>
@@ -204,7 +204,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>KSM/USD</td>
                      <td data-label='Job ID'>
-                        8395cde44b584577910d0d46eef00fe7
+                        3b586989bdb24a30bfd2ebe87837fdf1
                      </td>
                   </tr>
                </tbody>
@@ -212,7 +212,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>AAVE/USD</td>
                      <td data-label='Job ID'>
-                        09a985f987bf4fbb8da269b3d2dbe286
+                        e2519fb0319a4cc09f5c4789f1ffbe13
                      </td>
                   </tr>
                </tbody>
@@ -220,7 +220,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>ALGO/USD</td>
                      <td data-label='Job ID'>
-                        8dff957770214c4fb0c79d90f8548754
+                        d13eab3969674cda99362a9d015f8d60
                      </td>
                   </tr>
                </tbody>
@@ -228,7 +228,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>BAND/USD</td>
                      <td data-label='Job ID'>
-                        bfbf0761019c493ab448b5a79dc9ba3c
+                        2e69eb85fd5c4073830b03b463217492
                      </td>
                   </tr>
                </tbody>
@@ -236,7 +236,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>LINK/USD</td>
                      <td data-label='Job ID'>
-                        1ad3ebb5bbb645b582969071d8a2622b
+                        c5ba9425089b47c399cc9a1b75942e7f
                      </td>
                   </tr>
                </tbody>
@@ -244,7 +244,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>SUSHI/USD</td>
                      <td data-label='Job ID'>
-                        a04c1203aae54274b445f352865e9c9a
+                        253662a033b24f2e963d0631e2c636e6
                      </td>
                   </tr>
                </tbody>
@@ -252,7 +252,7 @@ class Table extends Component {
                   <tr>
                      <td data-label='Token Pair'>UNI/USD</td>
                      <td data-label='Price'>
-                        9be6d53447f84f509d6befb6259d7a72
+                        04fa59eec28244a38988e8e8c1b5fabe
                      </td>
                   </tr>
                </tbody>

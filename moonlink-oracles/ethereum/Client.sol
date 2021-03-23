@@ -33,7 +33,6 @@ contract Client is ChainlinkClient {
    */
   function requestPrice(string memory _jobId) 
     public
-    onlyOwner
   {
     require(fulfillCheck, 'There is a pending request');
     // newRequest takes a JobID, a callback address, and callback function as input

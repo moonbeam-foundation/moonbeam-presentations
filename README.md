@@ -13,7 +13,7 @@ git clone -b 202103-chainlink-hackathon https://github.com/PureStake/moonbeam-pr
 ## Material
 
 -  [Presentation Slides](https://docs.google.com/presentation/d/1PUZQXw9PmFOCDgtwAN6vn9wqs2pPCjnwcjorrgI2Wsc/edit?usp=sharing)
--  [Video Recording](TODO)
+-  [Video Recording](https://www.youtube.com/watch?v=ZWYVJuhjB2U)
 -  [Chainlink Workshop](https://www.youtube.com/watch?v=bp_ENdopbzM)
 -  [Moonbuilders Workshop](https://youtu.be/ViCk2fR2DwE)
 

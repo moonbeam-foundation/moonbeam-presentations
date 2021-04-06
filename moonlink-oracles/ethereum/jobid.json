@@ -1,12 +1,12 @@
 {
-   "btcusd": "e129dd6d6a6748fcb7f3944e3993be80",
-   "ethusd": "d27d7e7cb8744c5d87e693c6133c9e82",
-   "dotusd": "a8ddef6b544e42d194bbf08b7555562a",
-   "ksmusd": "3b586989bdb24a30bfd2ebe87837fdf1",
-   "aaveusd": "e2519fb0319a4cc09f5c4789f1ffbe13",
-   "algousd": "d13eab3969674cda99362a9d015f8d60",
-   "bandusd": "2e69eb85fd5c4073830b03b463217492",
-   "linkusd": "c5ba9425089b47c399cc9a1b75942e7f",
-   "sushiusd": "253662a033b24f2e963d0631e2c636e6",
-   "uniusd": "04fa59eec28244a38988e8e8c1b5fabe"
+   "btcusd": "0a1d7df6a47c417bb4d0ab561a37753e",
+   "ethusd": "ddd85cc4bab24920bc7c605b5bed3bf0",
+   "dotusd": "93790efc1e7641a99465ea8b1c71ce7a",
+   "ksmusd": "d37d9a18f92f49198ceece6d367ed77a",
+   "aaveusd": "684981fa8e264cc1afa3e1df7fe8eecc",
+   "algousd": "f7a442a6365048799a30c02ac56f4440",
+   "bandusd": "6daa1fe7ba7d421a8a76fa6c2adb1382",
+   "linkusd": "c1d6b9a159c64d3888b0e71104bdbb8d",
+   "sushiusd": "c1d6b9a159c64d3888b0e71104bdbb8d",
+   "uniusd": "c1d6b9a159c64d3888b0e71104bdbb8d"
 }

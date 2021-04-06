@@ -19,7 +19,7 @@ contract Client is ChainlinkClient {
   
   constructor() public {
     owner = msg.sender;
-    oracleAddress = 0x1d693d883BeAeE16edD0D7588D6a9f7E1967E798;
+    oracleAddress = 0xA356990bCDed8Cc6865Be606D64E7381bfe00B72;
     linkToken = 0xa36085F69e2889c224210F603D836748e7dC0088;
     setChainlinkToken(linkToken);
   }

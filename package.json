@@ -1,0 +1,13 @@
+{
+  "name": "moonbeam-pooled-staking-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
+    "@polkadot/api": "^5.0.1",
+    "@truffle/hdwallet-provider": "=1.2.2",
+    "moonbeam-truffle-plugin": ">=1.4.0",
+    "moonbeam-types-bundle": "^1.1.26",
+    "truffle": "^5.1.66",
+    "web3": "^1.4.0"
+  }
+}
